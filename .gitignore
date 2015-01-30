@@ -1,0 +1,5 @@
+resume_personal.tex
+resume_personal.pdf
+*.aux
+*.log
+*.gz
