@@ -1,0 +1,29 @@
+% This is my resume
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage[top=1in, bottom=1in, left=0.5in, right=0.5in, letterpaper]{geometry}
+\usepackage{color}
+
+\renewcommand{\familydefault}{\sfdefault} % Sans-serif font
+
+\definecolor{contact}{gray}{0.3} % Contact info color
+\definecolor{langs}{gray}{0.3} % Languages in projects color
+
+% Format sections
+\titleformat*{\section}{\large\bf}
+\setcounter{secnumdepth}{-2} % Remove numbers from sections
+
+\pagenumbering{gobble}
+
+\def \resumeitem {\bf}
+\def \resumedate {}
+\def \resumedetails {\small}
+\def \resumelang {\color{langs}}
+
+\begin{document}
+
+{
+	{\Huge Kyle Windsor}\\
+	\vspace{0.1in}
+}
+
